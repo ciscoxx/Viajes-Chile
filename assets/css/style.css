@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+/*CABECERA*/
+nav{
+  background-color: #17a3b8;
+}
+
+/*CUERPO DE LA PÁGINA*/
+body{
+  background-color: black;
+}
+
+.linea{
+  border-top: 1px solid #17a3b8;
+  height: 2px;
+  max-width: 90%;
+  padding: 0;
+  margin: 20px auto 0 auto;
+  justify-content: center;
+}
+
+.div-1{
+  background-color: #17a3b8;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*TEXTOS*/
+
+h1, h2, h3, h4, span, p{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h2{
+  text-align: center;
+  padding-top: 5%;
+}
+
+a{
+  color: white;
+}
+
+/*QUIENES SOMOS*/
+
+.quienes{
+  display: flex;
+  justify-content: center;
+}
+
+.fas{
+  color: white;
+  text-align:center;
+}
+
+/*DESTACADOS*/
+
+.container-fluid{
+  justify-content: center;
+}
+
+.card{
+  margin: 10px;
+  border: 1px;
+  border-style: solid;
+  border: white;
+  width: 20%;
+  background-color: #17a3b8;
+}
+
+.card-body{
+  background-color: #17a3b8;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-img-top{
+  height: 200px;
+}
+
+
+
+/*CONTACTO*/
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+/* PIÉ DE PÁGINA*/
+footer{
+  background-color: #17a3b8;
+  margin-bottom: 0rem;
+  margin-top: 3%;
+  height: 10%;
+}
+
+.fab{
+  color: white;
+}
+
+.FT{
+  margin-left: 15%;
+  margin-right: 40%;
+}
+
+
+/*Hace desaparecer la SECCION de "Quienes somos" cuando la pantalla está reducida a Movil*/
+
+ @media (max-width: 575.98px) {
+  .quien {
+    display: none;
+  }
+}
+
